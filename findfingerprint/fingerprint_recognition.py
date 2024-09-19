@@ -39,8 +39,8 @@ def find_best_match(input_image_path, dataset_path):
     return best_match, best_similarity
 
 # 사용 예시
-input_image_path = 'C:/archive/input_fingerprint/sample_finger2.jpg'  # 입력 지문 이미지 경로
-dataset_path = 'C:/archive/dataset_fingerprint'  # 지문 데이터셋 경로
+input_image_path = 'C:'  # 입력 지문 이미지 경로
+dataset_path = 'C:'  # 지문 데이터셋 경로
 
 try:
     best_match, best_similarity = find_best_match(input_image_path, dataset_path)
